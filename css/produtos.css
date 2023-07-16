@@ -1,0 +1,36 @@
+.produtos {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.produtos__titulo {
+    color: var(--preto-100, #464646);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+}
+
+.produtos__titulo__link a {
+    color: var(--azul-100, #2A7AE4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.produtos__titulo__link img {
+    width: 16px;
+    height: 16px;
+}
