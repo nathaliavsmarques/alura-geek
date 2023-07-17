@@ -1,36 +1,96 @@
 .produtos {
-    display: flex;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
 }
 
 .produtos__titulo {
-    color: var(--preto-100, #464646);
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
-
+  color: var(--preto-100, #464646);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
 }
 
 .produtos__titulo__link a {
-    color: var(--azul-100, #2A7AE4);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-
+  color: var(--azul-100, #2a7ae4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
 }
 
 .produtos__titulo__link img {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.produto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.produto__primeiro,
+.produto__segundo {
+  margin-bottom: 10px;
+}
+
+.produto__quinto,
+.produto__sexto {
+  display: none;
+}
+
+.produto__primeiro img,
+.produto__segundo img,
+.produto__terceiro img,
+.produto__quarto img,
+.produto__quinto img,
+.produto__sexto img {
+  width: 140px;
+  height: 160px;
+}
+
+.produto__primeiro a,
+.produto__segundo a,
+.produto__terceiro a,
+.produto__quarto a,
+.produto__quinto a,
+.produto__sexto a {
+  text-decoration: none;
+  color: var(--azul-100, #2a7ae4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .produtos__titulo {
+    font-size: 22px;
+  }
+  .produtos__titulo__link a {
+    font-size: 16px;
+  }
+  .produtos__titulo__link img {
+    width: 24px;
+    height: 24px;
+  }
+  .produto {
+    width: 100%;
+    
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+    
 }
