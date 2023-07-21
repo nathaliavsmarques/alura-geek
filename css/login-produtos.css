@@ -1,0 +1,45 @@
+.login__produtos {
+background-color: var(--azul-100);
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.login__produtos__titulo {
+  width: 100%;
+  height: 82px;
+}
+
+.login__produtos__titulo h1 {
+  color: var(--preto-100, #464646);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px;
+}
+
+.login__produtos__titulo button {
+  color: var(--preto-branco, #fff);
+  background: var(--azul-100, #2a7ae4);
+  display: flex;
+  padding: 12px 16px;
+  margin-left: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 992px) {
+}
