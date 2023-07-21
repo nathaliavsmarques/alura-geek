@@ -1,5 +1,4 @@
 .login__produtos {
-background-color: var(--azul-100);
   display: flex;
   padding: 32px;
   flex-direction: column;
