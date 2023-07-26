@@ -30,12 +30,11 @@
 .cabecalho__navegacao__btn {
 	color: var(--azul-100, #2a7ae4);
 	background: var(--branco);
-	font-family: Raleway;
-	font-size: 14px;
+	font-size: 12.4px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
-	width: 133px;
+	width: 200px;
 	padding: 12px 16px;
 	border: 1px solid var(--azul-100, #2a7ae4);
 }
@@ -75,10 +74,10 @@
 	}
 
 	.cabecalho__navegacao__btn {
-		width: 166px;
+		width: 200px;
+        height: 40px;
 		padding: 12px 16px;
 		margin-left: 60px;
-		
 	}
 }
 
@@ -129,6 +128,5 @@
 		align-items: center;
 		gap: 10px;
 		flex-shrink: 0;
-		
 	}
 }

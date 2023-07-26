@@ -1,52 +1,52 @@
 .produtos {
-  display: flex;
-  padding: 16px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  align-self: stretch;
+	display: flex;
+	padding: 16px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	align-self: stretch;
 }
 
 .produtos__titulo {
-  color: var(--preto-100, #464646);
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-self: stretch;
+	color: var(--preto-100, #464646);
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: stretch;
 }
 
 .produtos__titulo__link a {
-  color: var(--azul-100, #2a7ae4);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
+	color: var(--azul-100, #2a7ae4);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration: none;
 }
 
 .produtos__titulo__link img {
-  width: 16px;
-  height: 16px;
+	width: 16px;
+	height: 16px;
 }
 
 .produto {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .produto__primeiro,
 .produto__segundo {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .produto__quinto,
 .produto__sexto {
-  display: none;
+	display: none;
 }
 
 .produto__primeiro img,
@@ -55,8 +55,8 @@
 .produto__quarto img,
 .produto__quinto img,
 .produto__sexto img {
-  width: 140px;
-  height: 160px;
+	width: 140px;
+	height: 160px;
 }
 
 .produto__primeiro a,
@@ -65,80 +65,84 @@
 .produto__quarto a,
 .produto__quinto a,
 .produto__sexto a {
-  text-decoration: none;
-  color: var(--azul-100, #2a7ae4);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+	text-decoration: none;
+	color: var(--azul-100, #2a7ae4);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .produtos__titulo {
-    font-size: 22px;
-  }
-  .produtos__titulo__link a {
-    font-size: 16px;
-  }
-  .produtos__titulo__link img {
-    width: 24px;
-    height: 24px;
-  }
-  .produto {
-    width: 100%;
-  }
-  .produto__primeiro_titulo,
-  .produto__segundo_titulo,
-  .produto__terceiro_titulo,
-  .produto__quarto_titulo {
-    color: var(--preto-100);
-    font-size: 14px;
-    font-weight: 500;
-  }
+	.produtos__titulo {
+		font-size: 22px;
+	}
 
-  .produto__primeiro_preco,
-  .produto__segundo_preco,
-  .produto__terceiro_preco,
-  .produto__quarto_preco {
-    color: var(--preto-100, #464646);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+	.produtos__titulo__link a {
+		font-size: 16px;
+	}
+
+	.produtos__titulo__link img {
+		width: 24px;
+		height: 24px;
+	}
+
+	.produto {
+		width: 100%;
+	}
+
+	.produto__primeiro_titulo,
+	.produto__segundo_titulo,
+	.produto__terceiro_titulo,
+	.produto__quarto_titulo {
+		color: var(--preto-100);
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.produto__primeiro_preco,
+	.produto__segundo_preco,
+	.produto__terceiro_preco,
+	.produto__quarto_preco {
+		color: var(--preto-100, #464646);
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
 }
 
 @media screen and (min-width: 992px) {
-  .produtos__titulo {
-    font-size: 32px;
-  }
+	.produtos__titulo {
+		font-size: 32px;
+	}
 
-  .produto {
-    width: 100%;
-  }
+	.produto {
+		width: 100%;
+	}
 
-  .produto__quinto,
-  .produto__sexto {
-    display: block;
-  }
+	.produto__quinto,
+	.produto__sexto {
+		display: block;
+	}
 
-  .produto__primeiro_titulo,
-  .produto__segundo_titulo,
-  .produto__terceiro_titulo,
-  .produto__quarto_titulo {
-    color: var(--preto-100);
-    font-size: 14px;
-    font-weight: 500;
-  }
+	.produto__primeiro_titulo,
+	.produto__segundo_titulo,
+	.produto__terceiro_titulo,
+	.produto__quarto_titulo {
+		color: var(--preto-100);
+		font-size: 14px;
+		font-weight: 500;
+	}
 
-  .produto__primeiro_preco,
-  .produto__segundo_preco,
-  .produto__terceiro_preco,
-  .produto__quarto_preco {
-    color: var(--preto-100, #464646);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+	.produto__primeiro_preco,
+	.produto__segundo_preco,
+	.produto__terceiro_preco,
+	.produto__quarto_preco {
+		color: var(--preto-100, #464646);
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
 }

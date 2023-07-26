@@ -1,14 +1,19 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Raleway";
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway";
 }
 
+body{
+	overflow-x: hidden;
+}
+
+
 :root {
-  --branco: #fff;
-  --preto: #464646;
-  --preto-05: #f5f5f5;
-  --preto-50: #a2a2a2;
-  --azul-100: #2a7ae4;
-  --azul-10: #eaf2fd;
+	--branco: #fff;
+	--preto: #464646;
+	--preto-05: #f5f5f5;
+	--preto-50: #a2a2a2;
+	--azul-100: #2a7ae4;
+	--azul-10: #eaf2fd;
 }

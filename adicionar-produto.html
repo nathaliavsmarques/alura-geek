@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Produto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/addProduto-cabecalho.css">
+    <link rel="stylesheet" href="css/addProduto-container.css">
+    <link rel="stylesheet" href="css/informacoes.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <img class="cabecalho__navegacao__logo" src="assets/Logo.png" alt="Logo da AluaGeek" />
+            <div class="cabecalho__navegacao__pesquisa">
+                <input class="cabecalho__navegacao__pesquisa-input" type="text" name="pesquisa" id="pesquisa"
+                    placeholder="O que deseja encontrar ?" />
+                <img class="cabecalho__navegacao__pesquisa-img" src="assets/Vector.png" alt="imagem de uma lupa" />
+            </div>
+            <button class="cabecalho__navegacao__btn" type="submit"> <a href="login.html" target="_blank">Menu
+                    administrador</a></button>
+        </nav>
+    </header>
+    <section class="adicionarProduto">
+        <div class="adicionarProduto__container">
+            <h1>Adicionar novo produto</h1>
+            <input type="url" name="url" id="url" placeholder="URL da imagem">
+            <input type="text" name="categoria" id="categoria" placeholder="Categoria">
+            <input type="text" name="nomeProduto" id="nomeProduto" placeholder="Nome do produto">
+            <input type="number" name="preco do produto" id="preco do produto" placeholder="Preço do produto">
+            <textarea name="descProduto" id="descProduto" cols="42" rows="10"
+                placeholder="Descrição do produto"></textarea>
+            <button type="submit">Adicionar produto</button>
+        </div>
+    </section>
+    <section class="informacoes">
+        <div class="informacoes__container">
+            <div class="informacoes__container__links">
+                <img class="informacoes__container__logo2" src="assets/Logo.png" alt="logo alurageek">
+                <a href="">Quem somos nós</a>
+                <a href="">Política de privacidade</a>
+                <a href="">Programa fidelidade</a>
+                <a href="">Nossas lojas</a>
+                <a href="">Quero ser franqueado</a>
+                <a href="">Anuncie aqui</a>
+            </div>
+            <form class="informacoes__container__form">
+                <h3>Fale conosco</h3>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                    placeholder="Escreva sua mensagem"></textarea>
+                <button class="informacoes__container__btn" type="submit">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="">Nathalia Marques</a></p>
+        <p>2023</p>
+    </footer>
+
+</body>
+
+</html>
