@@ -33,8 +33,8 @@
 				<h1 class="promocional__container__titulo">Dezembro Promocional</h1>
 				<h2 class="promocional__container__subtitulo">
 					Produtos selecionados com 33% de desconto
-				</h2>
-				<button class="promocional__container__btn">Ver Consoles</button>
+				</h2>				
+				<button class="promocional__container__btn"><a href="#console">Ver Consoles</a></button>
 			</div>
 		</section>
 		<section class="produtos">
@@ -84,7 +84,7 @@
 				</div>
 			</div>
 			<div class="produtos__titulo">
-				<h1>Consoles</h1>
+				<h1 id="console">Consoles</h1>
 				<div class="produtos__titulo__link">
 					<a href="produtos.html">Ver tudo</a>
 					<img src="assets/arrow_back_black_24dp 1.jpg" alt="simbolo de uma flecha" />
@@ -187,9 +187,9 @@
 				</div>
 				<form class="informacoes__container__form">
 					<h3>Fale conosco</h3>
-					<input type="text" name="nome" id="nome" placeholder="Nome">
+					<input type="text" name="nome" id="nome" placeholder="Nome" required>
 					<textarea name="mensagem" id="mensagem" cols="30" rows="10"
-						placeholder="Escreva sua mensagem"></textarea>
+						placeholder="Escreva sua mensagem" required></textarea>
 					<button class="informacoes__container__btn" type="submit">Enviar mensagem</button>
 				</form>
 			</div>
@@ -199,6 +199,7 @@
 		<p>Desenvolvido por <a href="">Nathalia Marques</a></p>
 		<p>2023</p>
 	</footer>
+	<script src="script.js"></script>
 </body>
 
 </html>

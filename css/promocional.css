@@ -47,6 +47,14 @@
 	border: none;
 }
 
+.promocional__container__btn a {
+	text-decoration: none;
+	color: var(--preto-branco, #fff);
+
+}
+
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	.promocional {
 		height: 300px;
@@ -90,5 +98,11 @@
 
 	.promocional__container__btn {
 		padding: 16px;
+	}
+
+	.promocional__container__btn :hover {
+		cursor: pointer;
+		
+	
 	}
 }
