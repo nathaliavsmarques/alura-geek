@@ -1,2 +1,2 @@
 # alura-geek
- Projeto Alura Geek referente ao curso de Formação Front End 
+ Projeto Alura Geek que estou desenvolvendo atualmente referente ao curso de Formação Front End da Oracle + Alura.
