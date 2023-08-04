@@ -35,6 +35,15 @@
 	font-weight: 600;
 	line-height: normal;
 	border: none;
+
+}
+
+.login__produtos__titulo button:hover {
+	cursor: pointer;
+}
+
+.login__produtos__titulo a {
+	text-decoration: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {}
