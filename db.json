@@ -1,13 +1,22 @@
 {
     "produto": [
         {
-            "name": "Pokemon", 
-            "imageUrl":" " ,
+            "name": "Masquerain", 
+            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/284.png" ,
             "price": "R$90,00", 
             "id": 1, 
             "alt": "Produto", 
             "section": "Pokemon" ,
-            "description": "Boneco Pokemon"
+            "description": "Boneco Pokemon. Ele bate suas quatro asas para pairar e voar livremente em qualquer direção - para frente e para trás e para os lados."
+        },
+        {
+            "name": "Masquerain", 
+            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/284.png" ,
+            "price": "R$90,00", 
+            "id": 1, 
+            "alt": "Produto", 
+            "section": "Pokemon" ,
+            "description": "Boneco Pokemon. Ele bate suas quatro asas para pairar e voar livremente em qualquer direção - para frente e para trás e para os lados."
         }
     ]
 }

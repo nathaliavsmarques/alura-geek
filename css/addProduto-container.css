@@ -2,7 +2,7 @@ body {
    overflow-x: hidden;
     
 }
-.adicionarProduto__container {
+.adicionarProduto__container_form {
     
     background-color: var(--preto-05);
     display: flex;

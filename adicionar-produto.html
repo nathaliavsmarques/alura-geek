@@ -28,14 +28,16 @@
     </header>
     <section class="adicionarProduto">
         <div class="adicionarProduto__container">
-            <h1>Adicionar novo produto</h1>
-            <input type="url" name="url" id="url" placeholder="URL da imagem" required>
-            <input type="text" name="categoria" id="categoria" placeholder="Categoria" required>
-            <input type="text" name="nomeProduto" id="nomeProduto" placeholder="Nome do produto" required>
-            <input type="number" name="preco do produto" id="preco do produto" placeholder="Preço do produto" required>
-            <textarea name="descProduto" id="descProduto" cols="42" rows="10"
-                placeholder="Descrição do produto" required></textarea>
-            <button id="btn" type="submit">Adicionar produto</button>
+            <form class="adicionarProduto__container_form" data-form>
+                <h1>Adicionar novo produto</h1>
+                <input type="url" name="url" id="url" placeholder="URL da imagem" data-url required>
+                <input type="text" name="categoria" id="categoria" placeholder="Categoria" required>
+                <input type="text" name="nomeProduto" id="nomeProduto" placeholder="Nome do produto" data-nome required>
+                <input type="number" name="preco do produto" id="preco do produto" placeholder="Preço do produto" data-preco required>
+                <textarea name="descProduto" id="descProduto" cols="42" rows="10"
+                    placeholder="Descrição do produto" required></textarea>
+                <button id="btn" type="submit">Adicionar produto</button>
+            </form>
         </div>
     </section>
     <section class="informacoes">
