@@ -1,3 +1,5 @@
+const produtos = document.querySelector('[data-product]');
+
 const novoProduto = (name, id, imageUrl, price) => {
     const card = document.createElement("div");
     const conteudo = `
@@ -12,4 +14,3 @@ const novoProduto = (name, id, imageUrl, price) => {
     return card;
 }; 
 
-const produtos = document.querySelector('[data-product]');
