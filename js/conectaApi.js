@@ -15,6 +15,27 @@ async function listaProdutos () {
 */
 
 // POST - para incluir novos produtos
+
+async function criaProdutos(name, imageUrl,  price, categoria,  description) {
+    const conexao = await fetch("http://localhost:3000/produto", {
+        method: "POST", 
+        headers: {
+            "Content-type": "application/json"
+        }, 
+        body: JSON.stringify({
+            name: name,
+            imageUrl: imageUrl,
+            price: price,
+            categoria: categoria,
+            description: description
+        })
+    });
+    const conexaoConvertida = await conexao.json(); 
+    return conexaoConvertida;
+
+}
+
+/*
 const criaProdutos = (name, imageUrl, price) => {
     fetch(`http://localhost:3000/produto`, {
         method:"POST", 
@@ -33,7 +54,7 @@ const criaProdutos = (name, imageUrl, price) => {
     })
     throw new Error("Não foi possível criar o produto");
 
-};
+}; */ 
 
 
 export const conectaApi = {

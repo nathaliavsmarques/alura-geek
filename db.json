@@ -1,58 +1,58 @@
 {
-    "produto": [
-        {
-            "name": "Masquerain", 
-            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/284.png" ,
-            "price": "R$30,00", 
-            "id": 1, 
-            "alt": "Produto", 
-            "section": "Pokemon" ,
-            "description": "Figurinha Pokemon. Ele bate suas quatro asas para pairar e voar livremente em qualquer direção - para frente e para trás e para os lados."
-        },
-        {
-            "name": "Ivysaur", 
-            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" ,
-            "price": "R$50,00", 
-            "id": 2, 
-            "alt": "Produto", 
-            "section": "Pokemon" ,
-            "description": " Figurinha Pokemon. Quando o bulbo nas costas cresce, parece perder a capacidade de ficar de pé nas patas traseiras."
-        },
-        {
-            "name": "Spinarak", 
-            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/167.png" ,
-            "price": "R$80,00", 
-            "id": 3, 
-            "alt": "Produto", 
-            "section": "Pokemon" ,
-            "description": " Figurinha Pokemon. Com os fios de sua boca, ela cria teias resistentes que não se quebram mesmo se você colocar uma pedra nelas."
-        },
-        {
-            "name": "Blacephalon", 
-            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/806.png" ,
-            "price": "R$250,00", 
-            "id": 4, 
-            "alt": "Produto", 
-            "section": "Pokemon" ,
-            "description": " Figurinha Pokemon.Ele desliza em direção às pessoas. Então, sem aviso, ele dispara a explosão de sua própria cabeça. É aparentemente um tipo de Ultra Beast."
-        },
-        {
-            "name": "Medicham", 
-            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/308.png" ,
-            "price": "R$150,00", 
-            "id": 5, 
-            "alt": "Produto", 
-            "section": "Pokemon" ,
-            "description": " Figurinha Pokemon. Por meio do treinamento de ioga, ganhou o poder psíquico de prever o próximo movimento de seu inimigo.."
-        },
-        {
-            "name": "Cyclizar", 
-            "imageUrl":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/967.png" ,
-            "price": "R$190,00", 
-            "id": 6, 
-            "alt": "Produto", 
-            "section": "Pokemon" ,
-            "description": " Figurinha Pokemon.Aparentemente, a Cyclizar permite que as pessoas andem de costas desde os tempos antigos. Representações disso foram encontradas em murais de 10.000 anos."
-        }
-    ]
+  "produto": [
+    {
+      "name": "Masquerain",
+      "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/284.png",
+      "price": "R$30,00",
+      "id": 1,
+      "alt": "Produto",
+      "section": "Pokemon",
+      "description": "Figurinha Pokemon. Ele bate suas quatro asas para pairar e voar livremente em qualquer direção - para frente e para trás e para os lados."
+    },
+    {
+      "name": "Ivysaur",
+      "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+      "price": "R$50,00",
+      "id": 2,
+      "alt": "Produto",
+      "section": "Pokemon",
+      "description": " Figurinha Pokemon. Quando o bulbo nas costas cresce, parece perder a capacidade de ficar de pé nas patas traseiras."
+    },
+    {
+      "name": "Spinarak",
+      "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/167.png",
+      "price": "R$80,00",
+      "id": 3,
+      "alt": "Produto",
+      "section": "Pokemon",
+      "description": " Figurinha Pokemon. Com os fios de sua boca, ela cria teias resistentes que não se quebram mesmo se você colocar uma pedra nelas."
+    },
+    {
+      "name": "Blacephalon",
+      "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/806.png",
+      "price": "R$250,00",
+      "id": 4,
+      "alt": "Produto",
+      "section": "Pokemon",
+      "description": " Figurinha Pokemon.Ele desliza em direção às pessoas. Então, sem aviso, ele dispara a explosão de sua própria cabeça. É aparentemente um tipo de Ultra Beast."
+    },
+    {
+      "name": "Medicham",
+      "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/308.png",
+      "price": "R$150,00",
+      "id": 5,
+      "alt": "Produto",
+      "section": "Pokemon",
+      "description": " Figurinha Pokemon. Por meio do treinamento de ioga, ganhou o poder psíquico de prever o próximo movimento de seu inimigo.."
+    },
+    {
+      "name": "Cyclizar",
+      "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/967.png",
+      "price": "R$190,00",
+      "id": 6,
+      "alt": "Produto",
+      "section": "Pokemon",
+      "description": " Figurinha Pokemon.Aparentemente, a Cyclizar permite que as pessoas andem de costas desde os tempos antigos. Representações disso foram encontradas em murais de 10.000 anos."
+    }
+  ]
 }

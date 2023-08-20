@@ -28,14 +28,14 @@
     </header>
     <section class="adicionarProduto">
         <div class="adicionarProduto__container">
-            <form class="adicionarProduto__container_form" data-form>
+            <form class="adicionarProduto__container_form" data-formulario>
                 <h1>Adicionar novo produto</h1>
-                <input type="url" name="url" id="url" placeholder="URL da imagem" data-url required>
-                <input type="text" name="categoria" id="categoria" placeholder="Categoria" required>
                 <input type="text" name="nomeProduto" id="nomeProduto" placeholder="Nome do produto" data-nome required>
-                <input type="number" name="preco do produto" id="preco do produto" placeholder="Preço do produto" data-preco required>
+                <input type="url" name="url" id="url" placeholder="URL da imagem" data-url required>
+                <input type="text" name="preco do produto" id="preco do produto" placeholder="Preço do produto" data-preco required>
+                <input type="text" name="categoria" id="categoria" placeholder="Categoria" data-categoria required>
                 <textarea name="descProduto" id="descProduto" cols="42" rows="10"
-                    placeholder="Descrição do produto" required></textarea>
+                    placeholder="Descrição do produto" data-descricao required></textarea>
                 <button id="btn" type="submit">Adicionar produto</button>
             </form>
         </div>
@@ -64,7 +64,8 @@
         <p>Desenvolvido por <a href="">Nathalia Marques</a></p>
         <p>2023</p>
     </footer>
-    <script src="js/adicionarProduto.js"></script>
+    <script src="js/validandoFormNovoProduto.js"></script>
+    <script src="js/criarNovoProduto.js" type="module"></script>
 </body>
 
 </html>
