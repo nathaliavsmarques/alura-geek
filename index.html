@@ -20,12 +20,11 @@
 			<nav class="cabecalho__navegacao">
 				<img class="cabecalho__navegacao__logo" src="assets/Logo.png" alt="Logo da AluaGeek" />
 				<div class="cabecalho__navegacao__pesquisa">
-					<input class="cabecalho__navegacao__pesquisa-input" type="text" name="pesquisa" id="pesquisa"
-						placeholder="O que deseja encontrar ?" />
-					<img class="cabecalho__navegacao__pesquisa-img" src="assets/Vector.png" alt="imagem de uma lupa" />
+					<input class="cabecalho__navegacao__pesquisa-input" type="search" name="pesquisa" id="pesquisa"
+						placeholder="O que deseja encontrar ?" data-pesquisa />
+					<img class="cabecalho__navegacao__pesquisa-img" src="assets/Vector.png" alt="imagem de uma lupa" data-botao-pesquisa />
 				</div>
-				<button class="cabecalho__navegacao__btn" type="submit"> <a href="login.html"
-						target="_blank">Login</a></button>
+				<button class="cabecalho__navegacao__btn" type="submit"> <a href="login.html" target="_blank" >Login</a></button>
 			</nav>
 		</header>
 		<section class="promocional">
@@ -205,6 +204,7 @@
 	</footer>
 	<script src="formulario.js"></script>
 	<script src="js/mostrarProdutos.js" type="module"></script>
+	<script src="js/buscarProduto.js" type="module"></script>
 </body>
 
 </html>

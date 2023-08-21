@@ -2,7 +2,7 @@ import { conectaApi } from "./conectaApi.js";
 
 const produtos = document.querySelector("[data-product]");
 
-const novoProduto = (name, imageUrl, price) => {
+export default function novoProduto (name, imageUrl, price) {
     const card = document.createElement("div");
     const conteudo = `
     <div class="produto__primeiro">

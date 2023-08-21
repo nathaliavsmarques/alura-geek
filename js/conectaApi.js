@@ -56,9 +56,21 @@ const criaProdutos = (name, imageUrl, price) => {
 
 }; */ 
 
+async function buscaProdutos(termoDeBusca) {
+    const conexao = await fetch (`http://localhost:3000/produto?q=${termoDeBusca}`);
+    const conexaoConvertida = conexao.json(); 
+
+    return conexaoConvertida;
+};
+
+
+
+
+
 
 export const conectaApi = {
     listaProdutos,
-    criaProdutos
+    criaProdutos, 
+    buscaProdutos
 };
 
