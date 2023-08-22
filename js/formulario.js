@@ -7,7 +7,7 @@ const validarNomeFormulario = () => {
     } else if (getNome.length > 40) {
         alert('Erro. O nome deve conter no máximo 40 caracteres.');
         return false;
-    }
+    };
     return true;
 };
 
@@ -20,7 +20,7 @@ const validarMensagemFormulario = () => {
     } else if (getMensagem.length > 120) {
         alert('Erro. A mensagem deve conter no máximo 120 caracteres.');
         return false;
-    }
+    };
     return true;
 };
 
@@ -34,9 +34,8 @@ const btn = document.querySelector('.informacoes__container__btn').addEventListe
 
 
     if (nomeValido && mensagemValida) {
-        alert('Formulário enviado com sucesso!');
-
-    }
+        alert('Formulário enviado com sucesso!')
+    };
 
 });
 

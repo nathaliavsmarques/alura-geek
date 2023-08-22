@@ -9,7 +9,7 @@ const validandoEmail = () => {
 
     };
 
-}
+};
 
 
 const validandoSenha = () => {
@@ -17,10 +17,10 @@ const validandoSenha = () => {
 
     if (senhaValida == '') {
         alert('O campo senha tem que ser preenchido')
-    }
-}
+    };
+};
 
 const button = document.querySelector('#btn').addEventListener('click', () => {
     validandoEmail();
     validandoSenha();
-})
+});

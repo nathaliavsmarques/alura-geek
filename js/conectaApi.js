@@ -1,27 +1,21 @@
 // GET - para incluir os produtos de forma dinâmica
 
-async function listaProdutos () {
-    const conexao = await fetch("http://localhost:3000/produto"); 
-    const conexaoConvertida = await conexao.json(); 
+async function listaProdutos() {
+    const conexao = await fetch("http://localhost:3000/produto");
+    const conexaoConvertida = await conexao.json();
 
     return conexaoConvertida;
 };
 
-/*const listaProdutos = () => {
-    fetch("http://localhost:3000/produto")
-    .then(resposta => resposta.json())
-    .catch(error => console.log(error))
-};
-*/
 
 // POST - para incluir novos produtos
 
-async function criaProdutos(name, imageUrl,  price, categoria,  description) {
+async function criaProdutos(name, imageUrl, price, categoria, description) {
     const conexao = await fetch("http://localhost:3000/produto", {
-        method: "POST", 
+        method: "POST",
         headers: {
             "Content-type": "application/json"
-        }, 
+        },
         body: JSON.stringify({
             name: name,
             imageUrl: imageUrl,
@@ -30,47 +24,28 @@ async function criaProdutos(name, imageUrl,  price, categoria,  description) {
             description: description
         })
     });
-    const conexaoConvertida = await conexao.json(); 
+    if (!conexao.ok) {
+        throw new Error("Não foi possível criar novo produto");
+    };
+
+    const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 
-}
+};
 
-/*
-const criaProdutos = (name, imageUrl, price) => {
-    fetch(`http://localhost:3000/produto`, {
-        method:"POST", 
-        headers: {
-            "Content-type": "application/json"
-        }, 
-        body: JSON.stringify({
-            name,
-            imageUrl,
-            price
-        })
-    }).then(resposta => {
-        if(resposta.ok) {
-            return resposta.body
-        }
-    })
-    throw new Error("Não foi possível criar o produto");
 
-}; */ 
 
 async function buscaProdutos(termoDeBusca) {
-    const conexao = await fetch (`http://localhost:3000/produto?q=${termoDeBusca}`);
-    const conexaoConvertida = conexao.json(); 
+    const conexao = await fetch(`http://localhost:3000/produto?q=${termoDeBusca}`);
+    const conexaoConvertida = conexao.json();
 
     return conexaoConvertida;
 };
 
 
-
-
-
-
 export const conectaApi = {
     listaProdutos,
-    criaProdutos, 
+    criaProdutos,
     buscaProdutos
 };
 

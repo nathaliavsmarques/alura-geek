@@ -2,7 +2,7 @@ import { conectaApi } from "./conectaApi.js";
 
 const produtos = document.querySelector("[data-product]");
 
-export default function novoProduto (name, imageUrl, price) {
+export default function novoProduto(name, imageUrl, price) {
     const card = document.createElement("div");
     const conteudo = `
     <div class="produto__primeiro">
@@ -12,13 +12,17 @@ export default function novoProduto (name, imageUrl, price) {
 	     <a href="produtos.html">Ver produto</a>
 	</div>
     `
-    card.innerHTML = conteudo; 
+    card.innerHTML = conteudo;
     return card;
-}; 
+};
 
 async function listaProdutos() {
-     const listaApi = await conectaApi.listaProdutos(); 
-     listaApi.forEach(elemento => produtos.appendChild(novoProduto(elemento.name, elemento.imageUrl, elemento.price)))
-}; 
+    try {
+        const listaApi = await conectaApi.listaProdutos();
+        listaApi.forEach(elemento => produtos.appendChild(novoProduto(elemento.name, elemento.imageUrl, elemento.price)));
+    } catch {
+        produtos.innerHTML = `<h2> Não foi possível carregar a lista de vídeos </h2>`
+    };
+};
 
 listaProdutos();
