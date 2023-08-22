@@ -1,2 +1,4 @@
-# alura-geek
- Projeto Alura Geek que estou desenvolvendo atualmente referente ao curso de Formação Front End da Oracle + Alura.
+Projeto Alura Geek
+
+Este projeto, referente ao curso de Formação Front End da Oracle + Alura, que está em fase de desenvolvimento, consiste em criar uma página de um e-comerce. O site foi todo desenvolvido no conceito de mobile first e consequentemente foi implementado sua responsividade para telas do tipo tablet e telas maiores, além de usar o flexbox para melhor posicionar os elementos em tela. O JavaScript foi utilizado na criação de forma dinâmica da lista de produtos ofertados, onde para isso foi feito o uso de uma API local por meio do json-server. Através desse recurso também foi possível implementar a função de adicionar um novo produto e de realizar a busca por um determinado produto. Também foi realizada a  validação de formulários, como por exemplo de login e de contato. O projeto foi totalmente desenvolvido com HTML, CSS e JavaScript.
+
